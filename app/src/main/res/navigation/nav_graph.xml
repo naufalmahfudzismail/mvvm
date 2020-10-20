@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categories_fragment">
+
+    <fragment
+        android:id="@+id/categories_fragment"
+        android:name="id.dev.test.ui.set.category.CategoryFragment"
+        android:label="Meal Categori"
+        tools:layout="@layout/fragment_categories">
+        <action
+            android:id="@+id/action_categories_fragment_to_meals_fragment"
+            app:destination="@id/meals_fragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_open_exit"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/meals_fragment"
+        android:name="id.dev.test.ui.set.meal.MealsFragment"
+        android:label="Meal"
+        tools:layout="@layout/fragment_meals">
+        <action
+            android:id="@+id/action_meals_fragment_to_detail_meal_fragment"
+            app:destination="@id/detail_meal_fragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="setCategory"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detail_meal_fragment"
+        android:name="id.dev.test.ui.set.detail.DetailMealFragment"
+        android:label="Detail Meal"
+        tools:layout="@layout/fragment_detail_meal">
+        <argument
+            android:name="setId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+
+</navigation>

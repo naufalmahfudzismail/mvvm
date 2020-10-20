@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MasakApa</string>
+
+    <string name="read_more">Read More..</string>
+    <string name="title">Title</string>
+    <string name="tanggal_rilis">Release Date :</string>
+    <string name="genre">Genres :</string>
+    <string name="deskripsi">Overview </string>
+    <string name="negara">Country</string>
+    <string name="perusahaan">Companies</string>
+    <string name="keuntungan">Revenue</string>
+    <string name="budget_awal">Budget</string>
+
+
+
+
+    <string name="example_review">In one of the most mediocre movies so far this year,
+        “Bloodshot” squanders every last positive thing it has going for it.
+        Based on the bestselling sci-fi comic book,
+        the film tells the story of recently killed soldier Ray Garrison (Vin Diesel) who is brought back to life as a super-assassin. Ray has an army of nanotechnology in his veins, making him an outrageously strong, unstoppable force who has the ability to instantly heal any injuries he sustains in combat. When his memories begin to contradict what’s reality and what’s fiction, Ray starts to suspect lead scientist Dr. Harting (Guy Pearce) may have sinister intentions — and he does everything in his superhuman power to stop him.The film lacks enough material for a feature length film,
+        and it feels like the story has been stretched out from the get-go.
+        The plot is far-fetched but interesting, yet the best elements are dismissed in a rushed fashion.
+        The film could’ve gone one of two ways, and it chooses the path of greatest disappointment,
+        which leaves it in this weird limbo. It’s not quite smart enough and not quite dumb enough to work.
+        Like when director Dave Wilson gets the sense that things are lagging,
+        he inserts a not-so-subtle explosion or dick joke to keep things moving along.
+        Yeah, it’s that kind of bad.Even the action scenes fall victim to rapid-fire editing that is intended to disguise
+        the bloodless PG-13 action flick. There’s an almost-satisfying extended fight sequence involving elevators and a skyscraper, but it comes late in the film when most audiences will likely have already lost interest. Even worse, there are no consequences because Ray can’t be hurt or killed, and the special effects look like they were created
+        in a couple of hours by a pre-teen boy on the family room laptop.Diesel is not a great actor, but that’s never been a job requirement to bring the charismatic, cinematic muscle to the big screen. He’s a perfectly acceptable action star, but here he turns in a laughably bad performance. His poor acting hogs the spotlight, especially when he shares scenes opposite the talented Pearce.This movie is absolute junk that will die a quick death at the box office. Please, audiences: do your part to put “Bloodshot” out of its misery.
+</string>
+    <string name="error">Error</string>
+    <string name="erro_text">Something went wrong, please click refresh</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_connection_error">No connection to Internet, please turn on your network and try again</string>
+    <string name="user_reviews">User Reviews</string>
+
+
+</resources>
